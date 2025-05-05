@@ -16,7 +16,7 @@
 #1, 2, 3, 4, hello
 #5, 6, 7, 8, world
 #9, 10, 11, 12, foo
-
+#teste
 
 !cat examples/ex1.csv      #Este comando imprime o conteudo puro do arquivo na tela
 df=pd.read_csv('example/ex2.csv')
