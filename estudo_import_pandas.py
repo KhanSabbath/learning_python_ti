@@ -28,7 +28,7 @@ print(df)
 #5, 6, 7, 8, world
 #9, 10, 11, 12, foo
 
-!cat examples/ex2.csv       # Este comando imprime na tela o conteúdo puro do arquivo
+cat examples/ex2.csv       # Este comando imprime na tela o conteúdo puro do arquivo
 df2=pd.read_csv('example/ex2.csv', header=None) #opção com cabeçalho 'default'
 print(df2)
 # O que é printado:
