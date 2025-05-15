@@ -2,7 +2,7 @@
 ## Precimos utilizar o pacote "request" (http://docs.python-requests.org)
 import request
 url =  'https://api.github.com/repos/pandas-dev/pandas/issues'
-resp = requests.get(url)
+resp = request.get(url)
 resp
 #OUT:       <response [200]
 
